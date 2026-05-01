@@ -10,6 +10,8 @@
 | 主题名称 | Mylove |
 | 主题作者 | RucLinux |
 | 官方网站 | [https://www.myzhenai.com.cn/](https://www.myzhenai.com.cn/) |
+| 演示网站 | [https://www.myzhenai.com.cn/](https://www.myzhenai.com.cn/) |
+| 演示网站 | [https://www.mybabya.com/](https://www.mybabya.com/) |
 
 主题文件头与 `functions.php`、`assets/css/theme.css` 顶部注释中均包含上述信息；`style.css` 的 WordPress 主题头（Theme Name / Author / URI）与之一致。
 
