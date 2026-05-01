@@ -114,7 +114,7 @@ function xghome_classic_enqueue_assets(): void
         'xghome-theme',
         get_template_directory_uri() . '/assets/js/theme.js',
         ['jquery', 'highlightjs'],
-        '1.0.4',
+        '1.0.5',
         true
     );
 }
@@ -1805,6 +1805,10 @@ add_filter('pre_option_require_name_email', 'xghome_classic_disable_require_name
 
 function xghome_classic_validate_comment(array $commentdata): array
 {
+    if (is_user_logged_in()) {
+        return $commentdata;
+    }
+
     $regex = xghome_classic_get_comment_regex();
     $email_pattern_raw = xghome_classic_safe_regex_pattern((string) $regex['email'], '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$');
     $phone_pattern_raw = xghome_classic_safe_regex_pattern((string) $regex['phone'], '^1[3-9]\d{9}$');
