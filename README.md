@@ -157,3 +157,9 @@
 ---
 
 *文档版本与主题代码同步维护；若行为与后台文案不一致，以 `functions.php` 及实际模板为准。*
+
+
+<img width="1920" height="911" alt="_20260502155932_252_24" src="https://github.com/user-attachments/assets/eb6307f8-b0fc-402f-91a4-312c6dc821bc" />
+
+
+<img width="1920" height="911" alt="_20260502160143_254_24" src="https://github.com/user-attachments/assets/fa417f7c-28d1-4a1d-a7c2-357b7d217df6" />
